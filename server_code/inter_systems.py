@@ -23,7 +23,7 @@ def get_inter_systems():
             'port': 443,
             'namespace': "USER", 
             'username': "SQLAdmin",  
-            'password': "Ucal!12345"
+            'password': "xxxxxxxxx"
         }
         engine = create_engine(f"iris://{args['username']}:{args['password']}@{args['hostname']}:{args['port']}/{args['namespace']}",connect_args={'sslcontext': sslcontext} )
         conn = engine.connect()
